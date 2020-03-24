@@ -13,12 +13,14 @@ header{
   background-size: cover;
   padding-top: 10px;
   padding-bottom: 10px;
-	
+font-size: 10px;
 }
 
 .title{
 	font-size: 70px;
 	color: #FFF;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .topnav {
@@ -95,8 +97,7 @@ header{
 
 
 #highlights{
-	margin: 5% 10%;
-	width: 70%;
+	margin: 5%;
 }
 
 #highlights h1,
@@ -112,12 +113,6 @@ header{
 	border-radius: 5px;
 }
 
-.figure-caption img, h3{
-	margin: 1% 2%;
-	font-size: 14px;
-	padding-left: 3%;
-	float: left;
-}
 
 .figure-caption a{
 	color: #FFFFFF;
@@ -134,11 +129,17 @@ header{
 	background-color: #ff8b94;
 	border: thin solid #efc5c5;
 	text-align: center;
-	margin-right: 90%;
 	border-radius: 15px;
 	font-size: 24px;
-	margin: 2% 15%;
+	margin: 0 25%;
 	width: 50%;
+}
+#aboutme .row {
+	background-color: #a36262;
+	margin: 2% 2% 0;
+	border: hidden;
+	border-radius: 20px;
+	padding: 2%;
 }
 
 #aboutme a{
@@ -177,8 +178,17 @@ header{
 	border-radius: 1px;
 }
 
+footer {
+	clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%);
 
-#info-footer, #copyright{
+}
+#info-footer {
+	background-color: #000222;
+	padding: 15px 1px;
+	color: #FFFFFF;
+}
+
+#copyright{
 	background-color: #000222;
 	padding: 15px 1px;
 	color: #FFFFFF;
@@ -214,10 +224,6 @@ header{
 }
 
 
-#project-con .figure-caption img, li, h3{
-	margin: 5% 8%;
-	font-size: 14px;
-}
 
 #project-con video{
 	margin-top: 15%;
@@ -231,4 +237,37 @@ header{
 #passage .figure-caption img, li, h3{
 	margin: 5% 8%;
 	font-size: 18px;
+}
+
+.titulo-1 {
+	padding: 15px 0 10px;
+	background-color: #a36262;
+}
+#project-con {
+	padding: 10% 0;
+}
+#project-con .figure-caption img, li, h3{
+	margin: 5% 8%;
+	font-size: 14px;
+}
+#info-footer .row{
+	margin-top: 50px;
+}
+#info .row{
+	padding: 5% 0;
+}
+#passage {
+	padding: 10% 0;
+}
+#passage .text-center{
+	margin: 6px 0;
+}
+#gifs {
+	padding:  10% 0;
+}
+#drawings {
+	padding: 10% 0;
+}
+#photos {
+	padding:  10% 0;
 }
